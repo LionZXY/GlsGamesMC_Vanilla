@@ -10,4 +10,4 @@ services:
       - ./world_nether:/app/world_nether
       - ./world_the_end:/app/world_the_end
       - ./logs:/app/logs
-      - ./plugins:/app/plugins
+      - ./plugins/TelegramBridge:/app/plugins/TelegramBridge
