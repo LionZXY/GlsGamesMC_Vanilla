@@ -4,4 +4,4 @@ WORKDIR /app/
 
 COPY . /app/
 
-RUN start.sh
+CMD /app/start.sh
