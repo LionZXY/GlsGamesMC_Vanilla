@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 HOST="https://games.glitchless.ru/api/minecraft/users"
 
