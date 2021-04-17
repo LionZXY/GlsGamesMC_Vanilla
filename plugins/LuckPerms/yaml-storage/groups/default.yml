@@ -1,0 +1,12 @@
+name: default
+permissions:
+- worldguard.region.addmember.*
+- worldguard.region.addowner.*
+- worldguard.region.list.*
+- worldguard.region.removemember.*
+- worldguard.region.removeowner.*
+- worldedit.selection.*
+- worldguard.region.claim
+prefixes:
+- '[Player]':
+    priority: 1

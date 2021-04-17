@@ -1,0 +1,13 @@
+services:
+  mc_heavy:
+    image: glitchless/gli_mc_vanilla:3
+    ports:
+      - "25567:25565"
+    environment:
+      MC_RAM: "12G"
+    volumes:
+      - ./world:/app/world
+      - ./world_nether:/app/world_nether
+      - ./world_the_end:/app/world_the_end
+      - ./logs:/app/logs
+      - ./plugins:/app/plugins
